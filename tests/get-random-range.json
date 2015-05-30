@@ -1,0 +1,47 @@
+{
+  "machine": "get-random-range",
+  "expectations": [
+    {
+      "using": {
+        "amount": 1,
+        "lower": 1,
+        "upper": 2
+      },
+      "outcome": "success",
+      "returns": [2]
+    },
+    {
+      "using": {
+        "amount": 1,
+        "lower": 12345,
+        "upper": 12346
+      },
+      "outcome": "success",
+      "returns": [12346]
+    },
+    {
+      "using": {
+        "amount": 0,
+        "lower": 2,
+        "upper": 3
+      },
+      "outcome": "badAmount"
+    },
+    {
+      "using": {
+        "amount": 1,
+        "lower": 4,
+        "upper": 4
+      },
+      "outcome": "badRange"
+    },
+    {
+      "using": {
+        "amount": "blah",
+        "lower": 2,
+        "upper": 3
+      },
+      "outcome": "error"
+    }
+  ]
+}

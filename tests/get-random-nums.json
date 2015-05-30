@@ -15,6 +15,13 @@
         "mult": 2
       },
       "outcome": "badAmount"
+    },
+    {
+      "using": {
+        "amount": "blah",
+        "mult": 2
+      },
+      "outcome": "error"
     }
   ]
 }

@@ -25,7 +25,8 @@
     "machineDir": "machines/",
     "machines": [
       "get-random-vals",
-      "get-random-nums"
+      "get-random-nums",
+      "get-random-range"
     ],
     "testsUrl": "https://travis-ci.org/"
   },
