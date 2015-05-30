@@ -4,15 +4,15 @@
     {
       "using": {
         "num": 1,
-        "arr": [1]
+        "arr": "[1]"
       },
       "outcome": "success",
-      "returns": [1]
+      "returns": "[1]"
     },
     {
       "using": {
         "num": 0,
-        "arr": [1,2,3,4,5]
+        "arr": "[1,2,3,4,5]"
       },
       "outcome": "badNum"
     },
