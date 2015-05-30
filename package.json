@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Doing stuff with random values.",
   "scripts": {
-    "test": "testmachinepack-mocha"
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
   },
   "keywords": [
     "random",
@@ -16,7 +16,7 @@
     "machine": "^9.0.4"
   },
   "devDependencies": {
-    "test-machinepack-mocha": "^0.2.4"
+    "test-machinepack-mocha": "^1.0.0"
   },
   "machinepack": {
     "friendlyName": "Array",
