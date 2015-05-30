@@ -66,12 +66,8 @@ module.exports = {
       result = [],
       i = 0;
 
-    if(inputs.num === 0 || inputs.num > len || typeof inputs.num !== 'number') {
+    if(inputs.num === 0 || inputs.num > len) {
       return exits.badNum();
-    }
-
-    if (len < 1 || !inputs.arr) {
-      return exits.badArr();
     }
 
     function getPos() {
