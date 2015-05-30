@@ -24,15 +24,17 @@
     "friendlyName": "Array",
     "machineDir": "machines/",
     "machines": [
-      "get-random-vals"
+      "get-random-vals",
+      "get-random-nums"
     ],
     "testsUrl": "https://travis-ci.org/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tpiecora/machinepack-random"
+    "url": "https://github.com/tpiecora/machinepack-random.git"
   },
   "devDependencies": {
-    "jscover": "^1.0.0"
+    "jscover": "^1.0.0",
+    "test-machinepack-mocha": "^0.2.2"
   }
 }

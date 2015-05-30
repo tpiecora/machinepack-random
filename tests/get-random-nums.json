@@ -1,0 +1,20 @@
+{
+  "machine": "get-random-nums",
+  "expectations": [
+    {
+      "using": {
+        "amount": 1,
+        "mult": 1
+      },
+      "outcome": "success",
+      "returns": [1]
+    },
+    {
+      "using": {
+        "amount": 0,
+        "mult": 2
+      },
+      "outcome": "badAmount"
+    }
+  ]
+}
