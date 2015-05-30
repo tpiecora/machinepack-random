@@ -3,29 +3,29 @@
   "expectations": [
     {
       "using": {
-        "num": "1",
-        "arr": ["1"]
+        "num": 1,
+        "arr": [1]
       },
       "outcome": "success",
-      "returns": ["1"]
+      "returns": [1]
     },
     {
       "using": {
-        "num": "0",
-        "arr": ["1","2","3","4","5"]
+        "num": 0,
+        "arr": [1,2,3,4,5]
       },
       "outcome": "badNum"
     },
     {
       "using": {
-        "num": "4",
+        "num": 4,
         "arr": "blah"
       },
       "outcome": "error"
     },
     {
       "using": {
-        "num": "4"
+        "num": 4
       },
       "outcome": "error"
     }
