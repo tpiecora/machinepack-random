@@ -8,7 +8,7 @@
 Work with array.
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-random.svg)](http://badge.fury.io/js/machinepack-random) [![Build Status](https://travis-ci.org/tpiecora/machinepack-random.png?branch=master)](https://travis-ci.org/tpiecora/machinepack-random)
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-random.svg)](http://badge.fury.io/js/machinepack-random) [![Build Status](https://travis-ci.org/tpiecora/machinepack-random.png?branch=master)](https://travis-ci.org/tpiecora/machinepack-random) [![Coverage Status](https://coveralls.io/repos/tpiecora/machinepack-random/badge.svg)](https://coveralls.io/r/tpiecora/machinepack-random)
 
 ```sh
 $ npm install machinepack-random

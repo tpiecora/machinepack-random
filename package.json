@@ -13,9 +13,9 @@
   "author": "Ted Piecora",
   "license": "MIT",
   "dependencies": {
-    "machine": "^9.0.4"
-  },
-  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "machine": "^9.0.4",
+    "mocha-lcov-reporter": "0.0.2",
     "test-machinepack-mocha": "^1.0.0"
   },
   "machinepack": {
