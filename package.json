@@ -13,10 +13,10 @@
   "author": "Ted Piecora",
   "license": "MIT",
   "dependencies": {
-    "machine": "^9.0.0"
+    "machine": "^9.0.4"
   },
   "devDependencies": {
-    "test-machinepack-mocha": "^0.2.2"
+    "test-machinepack-mocha": "^0.2.4"
   },
   "machinepack": {
     "friendlyName": "Array",
