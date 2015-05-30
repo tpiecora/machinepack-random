@@ -19,7 +19,7 @@ module.exports = {
   inputs: {
     num: {
 
-      example: 8,
+      typeclass: 'number',
 
       description: 'The number of values to return from the array.',
 
@@ -28,7 +28,7 @@ module.exports = {
     arr: {
       friendlyName: 'Array to get values from',
 
-      example: [],
+      typeclass: 'array',
 
       description: 'The array we want to return values from.',
 
