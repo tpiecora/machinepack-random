@@ -8,7 +8,7 @@
 Doing stuff with random values.
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-random.svg)](http://badge.fury.io/js/machinepack-random) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-random.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-random)
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-random.svg)](http://badge.fury.io/js/machinepack-random) [![Build Status](https://travis-ci.org/tpiecora/machinepack-random.png?branch=master)](https://travis-ci.org/tpiecora/machinepack-random)
 
 ```sh
 $ npm install machinepack-random
@@ -26,5 +26,5 @@ Learn more at <a href="http://node-machine.org/implementing/FAQ" title="Machine 
 
 ## License
 
-MIT &copy; 2015 Ted Piecora and contributors
+MIT &copy; 2015 Ted Piecora
 

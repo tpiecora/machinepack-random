@@ -92,7 +92,4 @@ module.exports = {
     }
     return exits.success(result);
   }
-
-
-
 };
