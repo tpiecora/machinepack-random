@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "description": "Doing stuff with random values.",
   "scripts": {
-    "test": "mocha",
-    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report html -- -R spec"
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js",
+    "cover": "istanbul cover ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js --report html -- -R spec"
   },
   "keywords": [
     "random",
